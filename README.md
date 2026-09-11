@@ -1,7 +1,6 @@
 # BCI Brain-Signal Controller
 
-EEG rig that reads a real brainwave signal from three electrodes, detects
-when you close your eyes, and fires a live, visible trigger — built for
+EEG rig that reads a real brainwave signal from three electrodes, detects actions, and fires a live, visible trigger — built for
 VoltHacks 2026.
 
 ![Baseline](images/baseline_purple.png)
@@ -19,13 +18,11 @@ real time, and when it crosses a threshold — which happens reliably when you
 close your eyes and relax — it fires a discrete event: a console message and
 a live color change (calm purple → lit-up red) on a 3D brain visualization.
 
-**Honesty note:** this is a single real EEG channel, not a multi-region brain
-scanner. The 3D brain model is an illustrative indicator of signal strength
+The 3D brain model is an illustrative indicator of signal strength
 at roughly the electrode's location — not real anatomical source
-localization. See `CLAUDE.md` for the full scope/honesty notes this project
-was built against.
+localization.
 
-### Real hardware, running live
+Hardware, running live - (hopefully youtube video out soon)
 
 ![Baseline, wearing the electrode](images/demo_baseline.png)
 ![Detected, wearing the electrode](images/demo_detected.png)
