@@ -25,6 +25,16 @@ at roughly the electrode's location — not real anatomical source
 localization. See `CLAUDE.md` for the full scope/honesty notes this project
 was built against.
 
+### Real hardware, running live
+
+![Baseline, wearing the electrode](images/demo_baseline.png)
+![Detected, wearing the electrode](images/demo_detected.png)
+
+*Live capture: webcam feed of the actual electrode on the forehead (top
+left), the real-time detection log (bottom left — `alpha_power`, the
+rolling `p10-p90` normalization range, and `val`), and the 3D brain model
+reacting live (right). Top: baseline. Bottom: `>>> ACTION` firing.*
+
 ## Repo structure
 
 ```
@@ -89,9 +99,9 @@ python3 brain_model_live_chords.py
 ```
 Loads the 3D brain model (can take a while on first run — downloads the
 `fsaverage` template), then starts streaming. Sit still, relax, then close
-your eyes — watch the terminal print `>>> EYES CLOSED DETECTED` and the
-brain flip from purple to red. Press `P` in the brain window to
-pause/resume; `Ctrl+C` in the terminal to quit.
+your eyes — watch the terminal print `>>> ACTION` and the brain flip from
+purple to red. Press `P` in the brain window to pause/resume; `Ctrl+C` in
+the terminal to quit.
 
 **7. (No hardware handy?)**
 ```
