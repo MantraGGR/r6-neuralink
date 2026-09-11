@@ -1,6 +1,6 @@
 # BCI Brain-Signal Controller
 
-EEG rig that reads a real brainwave signal from one electrode, detects
+EEG rig that reads a real brainwave signal from three electrodes, detects
 when you close your eyes, and fires a live, visible trigger — built for
 VoltHacks 2026.
 
