@@ -1,4 +1,4 @@
 # Third-party reference repo bundled for convenience — exclude it from
 # GitHub's language stats so the repo's language bar reflects the actual
 # project code (Python + Arduino), not vendored hardware/docs/KiCad output.
-firmware/BioAmp-EXG-Pill-main/* linguist-vendored
+firmware/BioAmp-EXG-Pill-main/** linguist-vendored
